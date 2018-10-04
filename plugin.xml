@@ -44,7 +44,7 @@
         <header-file src="src/ios/FiNeZeep.h" />
         <source-file src="src/ios/FiNeZeep.m" />
         <header-file src="src/ios/Common.h" />
-        <header-file src="src/ios/aes/aes.h" target-dir="Plugins/aes" />
+        <!-- <header-file src="src/ios/aes/aes.h" target-dir="Plugins/aes" />
         <header-file src="src/ios/aes/aes_via_ace.h" target-dir="Plugins/aes" />
         <source-file src="src/ios/aes/aescrypt.c" target-dir="Plugins/aes" />
         <source-file src="src/ios/aes/aeskey.c" target-dir="Plugins/aes" />
@@ -75,7 +75,7 @@
         <header-file src="src/ios/minizip/mztools.h" target-dir="Plugins/minizip" />
         <source-file src="src/ios/minizip/ioapi.c" target-dir="Plugins/minizip" />
         <header-file src="src/ios/minizip/ioapi.h" target-dir="Plugins/minizip" />
-        <header-file src="src/ios/minizip/crypt.h" target-dir="Plugins/minizip" />
+        <header-file src="src/ios/minizip/crypt.h" target-dir="Plugins/minizip" /> -->
         <framework src="libz.dylib" />
     </platform>
 

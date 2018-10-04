@@ -40,7 +40,7 @@
         NSString* fromPath = [self pathForURL:[command.arguments objectAtIndex:0]];
         NSString* toPath   = [self pathForURL:[command.arguments objectAtIndex:1]];
             
-        if([SSZipArchive createZipFileAtPath:toPath withContentsOfDirectory:fromPath keepParentDirectory:NO withPassword:nil])
+        if([SSZipArchive createZipFileAtPath:toPath withContentsOfDirectory:fromPath])
         {
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
         }
